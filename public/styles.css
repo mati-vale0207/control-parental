@@ -25,6 +25,8 @@
   color: white;
 }
 
+
+
 /* Hover en tablets (pantallas medianas) */
 @media (min-width: 768px) and (max-width: 991px) {
   .hover-dropdown:hover .dropdown-menu {
