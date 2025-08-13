@@ -1,0 +1,49 @@
+/* Fondo elegante del navbar */
+.navbar-glass {
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  z-index: 1030;
+}
+
+/* Dropdown menú */
+.dropdown-menu {
+  background-color: rgba(30, 30, 30, 0.95);
+  border: none;
+  text-align: center;
+  min-width: 200px;
+}
+
+.dropdown-item {
+  color: white;
+  padding: 12px;
+  background: transparent;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(80, 80, 80, 0.8);
+  color: white;
+}
+
+/* Hover en tablets (pantallas medianas) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hover-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+/* Responsive móvil */
+@media (max-width: 767px) {
+  .dropdown-menu {
+    width: 95vw;
+    left: 2.5vw;
+    right: 2.5vw;
+    padding: 10px 0;
+    font-size: 16px;
+  }
+
+  .dropdown-item {
+    padding: 14px;
+    font-size: 16px;
+  }
+}
